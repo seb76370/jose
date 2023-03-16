@@ -1,0 +1,38 @@
+.container{
+    height: 90%;
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-card:nth-child(1) .example-header-image {
+    background-image: url('http://img5.allocine.fr/acmedia/medias/nmedia/18/83/23/67/19672383.jpg');
+    background-size: cover;
+  }
+
+  .example-card:nth-child(2) .example-header-image {
+    background-image: url('https://voi.img.pmdstatic.net/scale/https.3A.2F.2Fi.2Epmdstatic.2Enet.2Fvoi.2F2022.2F12.2F06.2F64cbdc85-d1d2-41d3-9281-dcc6dd828e36.2Epng/autox600/quality/65/philippe-vasseur-gagnait-entre-2-500-a-3-000-euros-par-episode-lorsqu-il-jouait-jose-dans-helene-et-les-garcons-il-avait-a-cette-epoque-26-ans.jpg');
+    background-repeat: cover;
+    background-size: contain;
+
+  }
+  .example-card:nth-child(3) .example-header-image {
+    background-image: url('https://www.amiens.fr/var/ez_website/storage/images/media/images/jda/jda-2020/jda-949/l-amiens-de-philippe-vasseur/525939-1-fre-FR/L-Amiens-de-Philippe-Vasseur_format_610x450.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .example-card:nth-child(4) .example-header-image {
+    background-image: url('https://media.ouest-france.fr/v1/pictures/MjAyMDA5YmI3YWVlNzU1MjBkYWMzZDNhNDNmNzlkN2U3MTcxMjM?width=1260&height=708&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=0f4a1a29073e5ff744dbf94ccec121c97cc1071a7e2157854edfe254c1790219');
+    background-repeat: repeat;
+    background-size: contain;
+
+  }
