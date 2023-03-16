@@ -14,7 +14,7 @@ import { CardComponent } from './card/card.component';
 import {MatCardModule} from '@angular/material/card';
 
 const routes: Routes = [
-  {path: 'jose1',component:CardComponent},
+  {path: '',component:CardComponent},
   // {path: ':id=1',component:CardComponent},
   // {path: ':2',component:CardComponent},
   // {path: ':3',component:CardComponent}
