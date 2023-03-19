@@ -20,6 +20,6 @@ jobs:
           port: 22
       - name: Deploy
         run: |
-          ls
-          pwd
-          EOF
+          git pull
+          npm install
+          ng build --output-path /website/Jose
