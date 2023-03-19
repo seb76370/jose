@@ -20,6 +20,3 @@ jobs:
           port: 22
           script: |
             pwd
-            git pull
-            npm install
-            ng build --output-path /website/Jose
