@@ -14,11 +14,13 @@ jobs:
       - name: Set up SSH
         uses: webfactory/ssh-agent@v0.5.0
         with:
-          ssh-private-key: ${{ secrets.website }}
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          port: 22
       - name: Deploy
         run: |
-          ssh root@193.46.198.252 << EOF
-            cd /website/jose
-            git pull
-            ng build
+          cd /website/jose
+          git pull
+          ng build
           EOF
