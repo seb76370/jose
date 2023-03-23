@@ -12,19 +12,19 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { CardComponent } from './card/card.component';
 import {MatCardModule} from '@angular/material/card';
+import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
-  {path: '/Jose',component:CardComponent},
-  // {path: ':id=1',component:CardComponent},
-  // {path: ':2',component:CardComponent},
-  // {path: ':3',component:CardComponent}
+  {path: '',component:TestComponent},
+  {path: 'jose1',component:CardComponent}
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
     MainNavComponent,
-    CardComponent
+    CardComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
